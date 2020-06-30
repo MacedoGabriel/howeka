@@ -74,4 +74,8 @@ p, p1, p2, p3 {
   letter-spacing: -0.003em;
   word-break: break-word;
   overflow-wrap: break-word;
+  line-height: 32px;
+  letter-spacing: -0.006em;
+  margin-bottom: -0.46em;
+  margin-top: 0.86em;
 }
