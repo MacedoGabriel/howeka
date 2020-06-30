@@ -43,7 +43,7 @@
 h1, h4, h3 {
   margin-top: 0;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 36px;
   font-family: "Roboto Slab", Arial, sans-serif;
   color: #761110;
 }
@@ -69,6 +69,6 @@ p, p1, p2, p3 {
   line-height: 24px;
   margin: 0;
   margin-bottom: 0px;
-  font-size: 16px;
+  font-size: 21px;
   margin-bottom: 24px;
 }
