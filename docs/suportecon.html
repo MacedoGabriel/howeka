@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Como Instalar</title>
+  <link rel="stylesheet" href="css/lay.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+</head>
+
+<body id="corpo">
+
+  <div class="header">
+    <h2 class="logo">Weka</h2>
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-menu-btn">
+      <i class="fas fa-ellipsis-h"></i>
+    </label>
+
+    <ul class="menu">
+      <a href="index.html">Página inicial</a>
+      <a href="instal.html">Como instalar</a>
+      <a href="howto.html">Como usar</a>
+      <a href="j48.html">Utilizando o J48</a>
+      <a href="suportecon">Regras de Associação</a>
+      <label for="chk" class="hide-menu-btn">
+        <i class="fas fa-times"></i>
+      </label>
+    </ul>
+  </div>
+  <div id="Regras de Associação">
+    <br><br>
+    <h1 id="titu"> Regras de Associação
+    </h1>
+    <hr>
+    <h1>
+      Resumo
+    </h1>
+    <p>
+      Regras sobre relações e co-ocorrênciasem bases de dados: </p>
+
+    <p>Se X ocorre na base de dados, então Y também ocorre (com alguma relação a X);</p>
+
+    <p>Co-ocorrência: se X, Y e Z ocorrem na base de dados então A também ocorre (com alguma relação a X, Y e Z).</p>
+
+    <p>X, Y e Z são os antecedentes da associação; A é o conseqüente.</p> <br>
+
+    <h1>
+      Suporte <br>
+    </h1>
+
+    <p>
+      O suporte serve para comparar quais dados estão relacionados. <br>
+      Para saber isso fazemos o cálculo de suporte em que é usado a seguinte fórmula -> <strong>suporte x/10 (Quantas vezes um item apareceu sobre o tamanho da base, sendo o 10 nesse caso!)</strong>. <br> <br>
+      <img src="imagens/exc.png" alt=""> <br> <br>
+      exemplo : <br> <br>
+      <strong>suporte X/10</strong> <br> <br>
+      |leite <strong>20%</strong> <br>
+      |café <strong>30%</strong> <br>
+      |cerveja <strong>20%</strong> <br>
+      |pão <strong>50%</strong> <br>
+      |manteiga <strong>50%</strong> <br>
+      |arroz <strong>20%</strong> <br>
+      |feijão <strong>20%</strong> <br> <br>
+
+    </p>
+
+    <h1>  Confiança  </h1> <br>
+
+    <p>
+      É utilizado para saber quanto um dado está relacionado a outro. (Quantas vezes o leite e o café aparecem juntos)<br> <br>
+
+      <strong>confiança</strong> entre	leite e	café: <br>
+      leite X café =	2	de 3	<strong>½</strong>  (A cada duas pessoas que compram leite uma leva café)<br> <br>
+
+      <strong>confiança</strong>	entre pão e	manteiga: <br>
+      pão X manteiga =	5	de 5	<strong>100,00%</strong> (A cada cinco pessoas que compram pão tambem  compram manteiga)<br> <br>
+
+      <strong>confiança</strong> entre	arroz e feijão: <br>
+      arroz x feijão = 1 de 1 <strong>50%</strong> (A cada duas pessoas que comprar arroz uma compra feijão)
+
+    </p>
+
+  </div>
+</body>
+
+
+</html>
